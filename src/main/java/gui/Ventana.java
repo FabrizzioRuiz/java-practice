@@ -25,7 +25,6 @@ public class Ventana extends JFrame {
         JButton boton = new JButton("Agregar");
         label.setBounds(100,100,200,200);
         label.setForeground(Color.RED);
-
         //panel.setBackground(Color.RED);
         panel.add(label);
 
