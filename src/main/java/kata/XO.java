@@ -3,7 +3,17 @@ import static java.lang.String.*;
 
 public class XO {
     public static boolean getXO (String str) {
-        return false;
-
+        String[] strMin = str.toLowerCase().split("");
+        int contX = 0;
+        int contO = 0;
+        for (String s : strMin) {
+            if (s.equals("x")) {
+                contX++;
+            }
+            if (s.equals("o")) {
+                contO++;
+            }
+        }
+        return contX==contO;
     }
 }
