@@ -7,5 +7,6 @@ public class Main {
         Ventana v = new Ventana();
         v.setVisible(true);
         v.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        v.setTitle("Aplicacion CoreFabri");
     }
 }
